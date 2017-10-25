@@ -8,7 +8,7 @@ class Car
 
     function describe($count = null)
     {
-        return (!is_null($count) ? $count . ' машины ' : '') . $this->brand
+        return (!is_null($count) ? $count . ' машины    ' : '') . $this->brand
             . ' ' . $this->model
             . ' color: ' . $this->color;
     }
